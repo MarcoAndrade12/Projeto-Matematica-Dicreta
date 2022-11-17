@@ -1,0 +1,10 @@
+ID,ID_user,Data,familia,genero,especie,habito,origem,recursos,referencia,floração
+1,1,10/11/2022,Asteraceae,Genero1,Espécie1,Árvore,Nativa,Néctar,N/Id,Sim
+2,1,10/11/2022,Asteraceae,Genero1,Espécie1,Árvore,Nativa,Nectar,N/Id,Sim
+3,1,11/11/2022,Fabaceae,Genero2,Espécie2,Árvore,Nativa,Néctar,N/Id,Sim
+4,1,11/11/2022,Asteraceae4,Genero3,Espécie1,Árvore,Nativa,Néctar,N/Id,Sim
+5,1,11/11/2022,Fabaceae,Planta,Plantae,Trepadeira,Nativa,Néctar,N/Id,Sim
+6,1,14/11/2022,Asteraceae,Victor,Corrêa,Árvore,Nativa,Pólen,N/Id,Sim
+7,1,14/11/2022,Corrêa,Gabriel,Victor,Erva,Nativa,Pólen,N/Id,Sim
+8,1,14/11/2022,Corrêa,Gabriel,Victor,Trepadeira,Nativa,Néctar,N/Id,Sim
+1,4,05/11/2022,Asteraceae,Youngia,Japonica,Erva,Exótica,N/Id,N/Id,Sim

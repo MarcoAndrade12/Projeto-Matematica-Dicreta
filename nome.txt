@@ -1,0 +1,5 @@
+ID,ID_user,Data,familia,genero,especie,habito,origem,recursos,referencia,floração
+1,001,10/11/2022,Asteraceae,Genero1,Espécie1,Árvore,Nativa,Néctar,N/Id,Sim
+2,002,10/11/2022,Asteraceae,Genero2,Espécie1,Árvore,Nativa,Nectar,N/Id,Sim
+3,002,11/11/2022,Asteraceae,Genero2,Espécie1,Árvore,Nativa,Néctar,N/Id,Sim
+4,003,11/11/2022,Asteraceae4,Genero2,Espécie1,Árvore,Nativa,Néctar,N/Id,Sim

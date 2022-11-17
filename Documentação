@@ -1,0 +1,53 @@
+O sistema SugFloraApp será um aplicativo para computador que rodará em terminal windows. O objetivo é proporcionar ao cliente um sistema de gestão básico de coleta e catalogação de flora.
+
+O SugFloraApp contará com os seguintes recursos:
+
+- Menu estilizado em terminal para facilitar a navegação com base em opções de entrada;
+- Opção de cadastro de usuários;
+- Classificação de usuários em:
+    1 - Administrativo
+    2 - Usuário
+    Onde:
+        1 será responsável por toda edição do sistema e terá acesso total a todas as funcionalidades e a todos os banco de dados. 
+        2 - Será o usuário interessado em catalogar as espécies e fazer a gestão das coletas, terá acesso limitado apenas aos seus próprios projetos.
+
+- Cadastro de projetos: Cada usuário terá seus projetos para organizar suas coletas e separar como bem entender. Cada projeto terá seus campos de coletas com suas distintas coletas.
+- Edição dos projetos: O usuário poderá editar os projetos existentes, assim como também exluí-los.
+
+- Cadastro das coletas: O usuário poderá cadastrar em cada campo, todas as coletas onde vai inserir os seguintes dados:
+    1 Data da coleta
+    #-----Identificação-----#
+    2 Família
+    3 Gênero
+    4 Espécie
+    #----características----#
+    5 Hábito
+    6 Origem
+    7 Recursos
+    8 Referência
+    9 Floração
+
+- Edição das coletas: O usuário poderá editar as coletas, assim como também excluí-las.
+
+Relatórios
+
+Por se tratar de um trabalho quantitativo, é necessário para o meio científico que o pesquisador trabalhe com análise quantitativa, então o SugFloraApp trará não apenas a relação de coletas, como também as estatísticas necessárias para a leitura ideal dos dados do banco de dados. Utilizaremos a análise estatística que são mais utilizadas e oportunas para os pesquisadores dessa área.
+
+Relatórios que devemos apresentar:
+    1 Quantidade de coletas;
+        1.1 Por projetos;
+        1.2 Por campo;
+        1.3 Por característica.
+        1.4 Filtro por identificadas e não identificadas
+            1.4-obs: Para ser considerada identificada a coleta é necessário atingir identificação de nível espécie. 
+        1.5 Identificadas por nível
+            1.5-obs: A identificação por nível servirá para controle da qualidade do projeto e orientação do trabalho de identificação do pesquisador.
+                0 = Não foi identificado nada até o momento (descarta características físicas);
+                1 = Foi identificado apenas até Família;
+                2 = Foi identificado Família e até Gênero;
+                3 = Foi identificado Família, Gênero e Espécie
+                4 = A coleta está totalmente identificada e também todas as característica físicas.
+
+    2 estatística aplicada a Ecologia;
+        2.1 Indice de Shannon
+        2.2 Calendário Floral
